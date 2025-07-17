@@ -1,0 +1,12 @@
+marks={"shivam":100, "A":7,"B":10,"C":43}
+print(marks)
+print(marks["shivam"])
+print(marks.items())
+print(marks.values())
+print(marks.keys())
+marks.update({"shivam":24,"D":34})
+print(marks.get("shivam"))
+print(marks)
+marks.pop("A")
+marks.popitem()
+print(marks)

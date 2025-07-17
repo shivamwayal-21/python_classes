@@ -1,0 +1,2 @@
+import pyjokes
+print
